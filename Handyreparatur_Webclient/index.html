@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="FunctionHandler.js"></script>
+    </head>
+    <body>
+      <center>
+        <div >
+            <h1>Webclient - Handyreparatur</h1>
+            <img src="Huawei-P20-Pro-CLT-L29-Display-Touchscreen-mit-Akku-schwarz.jpg" class="responsive">
+            <div>
+                <button class="btn1" id="ShowAllTasks">Alle von mir angelgten <br><br/> Aufgaben anzeigen</button>
+                  <script>
+                        document.getElementById("ShowAllTasks").onclick = function () { window.location.href = "https://localhost:8443/Handyreparatur/api/Tasks"; };
+                  </script>
+                <button class="btn2" id="FindeSpezificTask">Auftrag per ID suchen</button>
+                <input class="eingabefeld" id="TaskID" type="text" />
+                <label class="fehlerlabel" id=IdCheck></label>
+                <script>
+                      document.getElementById("FindeSpezificTask").onclick = function () {
+                      let id = document.getElementById("TaskID").value;
+                        if(id===""){
+                              document.getElementById("IdCheck").innerHTML="Bitte zuerst eine ID eingeben";
+                        } else {
+                              window.location.href = "https://localhost:8443/Handyreparatur/api/Tasks/" + id;} };
+                </script>
+            </div>
+        </div>
+        </center>
+</body>
+</html>

@@ -1,0 +1,71 @@
+
+.responsive {
+  width: 940px;
+
+}
+.restriction{
+  width: 1024px;
+   height: 768px;
+   margin: 0;
+   padding: 0;
+}
+
+.btn1{
+  position: absolute;
+ top: 17em;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: #555;
+ color: white;
+ font-size: 16px;
+ padding: 12px 24px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+.btn2{
+  position: absolute;
+ top: 25em;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: #555;
+ color: white;
+ font-size: 16px;
+ padding: 12px 24px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+.eingabefeld{
+  position: absolute;
+ top: 28em;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: #555;
+ color: white;
+ font-size: 16px;
+ padding: 12px 24px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+.fehlerlabel{
+  position: absolute;
+ top: 33em;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ background-color: #030303;
+ color: white;
+ font-size: 16px;
+ padding: 12px 24px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
