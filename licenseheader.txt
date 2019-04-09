@@ -1,11 +1,11 @@
-<#if licenseFirst??>
+﻿<#if licenseFirst??>
 ${licenseFirst}
 </#if>
-${licensePrefix}Copyright © ${date?date?string("yyyy")} 
-Michael Ihly, Jonas Braun, Nick Lampert, Justin Deurer
+${licensePrefix}Copyright © ${04.04.2019} 
+Michael Ihly, Jonas Braun
 ${licensePrefix}
-${licensePrefix}E-Mail: dhbw@windows3.de
-${licensePrefix}Webseite: https://www.wpvs.de/
+${licensePrefix}E-Mail: braunjonas1996@googlemail.com
+${licensePrefix}
 ${licensePrefix}
 ${licensePrefix}Dieser Quellcode ist lizenziert unter einer
 ${licensePrefix}Creative Commons Namensnennung 4.0 International Lizenz.
